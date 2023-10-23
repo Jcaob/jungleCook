@@ -1,0 +1,48 @@
+.content{
+    background-color: #06135d;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .circle1{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 50%;
+    z-index: 99;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle2{
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle2 span{
+    margin-bottom: 25px;
+    width: 150px;
+    margin-left: 15px;
+  }
